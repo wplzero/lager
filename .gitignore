@@ -1,17 +1,15 @@
 .eunit
-*.o
 *.beam
-*.plt
+ebin
+doc
+*.swp
 erl_crash.dump
-.concrete/DEV_MODE
-
-# rebar 2.x
-.rebar
-rel/example_project
-ebin/*.beam
+.project
+log
 deps
-
-# rebar 3
-.rebar3
+.local_dialyzer_plt
+dialyzer_unhandled_warnings
+dialyzer_warnings
 _build/
-_checkouts/
+rebar.lock
+*.crashdump
